@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+header{
+  background: white;
+  height: 145px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+div{
+  display: inline-block;
+}
+.menu{
+  position: absolute;
+width: 100%;
+border-bottom: 1px solid #d3d3d3;
+height: 65px;
+
+}
+.pinterestimg{
+  position: absolute;
+  top:12px;
+  bottom: 12px;
+  left: 73px;
+}
+.busqueda{
+  position: absolute;
+  background-color: #EFEFEF;
+  left: 142px;
+  width: 965px;
+  height: 40px;
+  top:11px;
+}
+.buscar{
+  position: absolute;
+  width: 768px;
+  padding: 8px 0 8px 55px;
+
+}
+.busqueda .buscar  input {
+    width: 93%;
+    border: none;
+    font-size: 17px;
+    outline: 0;
+    background-color: transparent;
+}
+.busqueda .buscar  .icon-cross {
+  position: absolute;
+
+    font-size: 13px;
+    padding: 8px 0 8px 15px;
+
+
+}
+.icons{
+  position: absolute;
+  right: 40px;
+  top:17px;
+
+}
+.pin{
+  position: absolute;
+  top: 8px;
+  right: 62px;
+  font-size: 16px;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+
+.icons .icon-user,.icon-menu,.icon-bubble{
+  font-size: 28px;
+  color: #b5b5b5;
+  margin-right: 19px;
+}
+
+.botones{
+padding: 76px 0 10px 150px;
+
+}
+#boton{
+
+  padding: 6px 22px;
+  margin-right: 13px;
+  border-radius: 5px;
+  background-color: rgba(150,110,75,.8);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 6px;
+}
+.botones .boton1 {
+    background-color: #746051;
+}
+.botones .boton2 {
+    background-color: #ab8b6f;
+}
+.botones .boton3 {
+    background-image: url(../assets/image/3.jpg);
+}
+.botones .boton4 {
+    background-image: url(../assets/image/4.jpg);
+}
+.botones .boton5 {
+    background-image: url(../assets/image/5.jpg);
+}
+.botones .boton6 {
+    background-image: url(../assets/image/6.jpg);
+}
+.botones .boton7 {
+    background-image: url(../assets/image/7.jpg);
+}
+.botones .boton8 {
+    background-image: url(../assets/image/8.jpg);
+}
+.botones .boton9 {
+    background-image: url(../assets/image/9.jpg);
+}
+.imagenes{
+  width: 90%;
+  margin: 155px 70px;
+}
+.image1{
+  width:220px;
+  background:#fff;
+  float:left;
+  margin-right:15px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+}
+.image1 p{
+  padding: 10px;
+  font-size: 13px;
+}
+.image1 img{
+  width: 100%;
+}
