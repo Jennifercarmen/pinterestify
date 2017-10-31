@@ -1,23 +1,23 @@
 body{
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  }
+}
 header{
   background: white;
   height: 145px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  }
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
 div{
   display: inline-block;
 }
 .menu{
   position: absolute;
-width: 100%;
-border-bottom: 1px solid #d3d3d3;
-height: 65px;
+  width: 100%;
+  border-bottom: 1px solid #d3d3d3;
+  height: 65px;
 
 }
 .pinterestimg{
@@ -25,7 +25,9 @@ height: 65px;
   top:12px;
   bottom: 12px;
   left: 73px;
+  cursor: pointer;
 }
+
 .busqueda{
   position: absolute;
   background-color: #EFEFEF;
@@ -41,17 +43,17 @@ height: 65px;
 
 }
 .busqueda .buscar  input {
-    width: 93%;
-    border: none;
-    font-size: 17px;
-    outline: 0;
-    background-color: transparent;
+  width: 93%;
+  border: none;
+  font-size: 17px;
+  outline: 0;
+  background-color: transparent;
 }
 .busqueda .buscar  .icon-cross {
   position: absolute;
 
-    font-size: 13px;
-    padding: 8px 0 8px 15px;
+  font-size: 13px;
+  padding: 8px 0 8px 15px;
 
 
 }
@@ -59,6 +61,7 @@ height: 65px;
   position: absolute;
   right: 40px;
   top:17px;
+  cursor: pointer;
 
 }
 .pin{
@@ -66,8 +69,8 @@ height: 65px;
   top: 8px;
   right: 62px;
   font-size: 16px;
-    font-weight: 700;
-    font-weight: bold;
+  font-weight: 700;
+  font-weight: bold;
 }
 
 
@@ -78,49 +81,56 @@ height: 65px;
 }
 
 .botones{
-padding: 76px 0 10px 150px;
+  padding: 76px 0 10px 150px;
 
 }
 #boton{
-
   padding: 6px 22px;
   margin-right: 13px;
   border-radius: 5px;
   background-color: rgba(150,110,75,.8);
-    color: #fff;
-    font-weight: 700;
-    border-radius: 6px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 6px;
 }
 .botones .boton1 {
-    background-color: #746051;
+  background-color: #746051;
 }
 .botones .boton2 {
-    background-color: #ab8b6f;
+  background-color: #ab8b6f;
 }
 .botones .boton3 {
-    background-image: url(../assets/image/3.jpg);
+  background-image: url(../assets/image/3.jpg);
 }
 .botones .boton4 {
-    background-image: url(../assets/image/4.jpg);
+  background-image: url(../assets/image/4.jpg);
 }
 .botones .boton5 {
-    background-image: url(../assets/image/5.jpg);
+  background-image: url(../assets/image/5.jpg);
 }
 .botones .boton6 {
-    background-image: url(../assets/image/6.jpg);
+  background-image: url(../assets/image/6.jpg);
 }
 .botones .boton7 {
-    background-image: url(../assets/image/7.jpg);
+  background-image: url(../assets/image/7.jpg);
 }
 .botones .boton8 {
-    background-image: url(../assets/image/8.jpg);
+  background-image: url(../assets/image/8.jpg);
 }
 .botones .boton9 {
-    background-image: url(../assets/image/9.jpg);
+  background-image: url(../assets/image/9.jpg);
 }
 .imagenes{
-  width: 90%;
-  margin: 155px 70px;
+  margin: 170px 80px 50px;
+  min-width: 900px;
+  column-count: 4;
+  column-gap: 20px;
+
+}
+.imagenes img {
+  border-radius: 20px;
+  margin-bottom: 15px;
+  width: 100%;
 }
 .image1{
   width:220px;
@@ -137,3 +147,4 @@ padding: 76px 0 10px 150px;
 .image1 img{
   width: 100%;
 }
+
